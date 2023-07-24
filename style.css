@@ -24,6 +24,7 @@ header {
     margin-right: 40px;
     color: #333;
     font-weight: 500;
+    font-size: 18px;
 }
 
 section {
@@ -37,22 +38,21 @@ section {
     color: #017143;
 }
 
-.textContent {
-    width: 600px;
-}
-
 .textContent h2 {
-    font-size: 4em;
-    font-weight:500;
+    font-size: 4.5em;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 .textContent h2 span {
     font-weight: 700;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .textContent p {
-
+    width: 600px;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 .textContent a {
