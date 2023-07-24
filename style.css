@@ -129,3 +129,63 @@ section {
     right: 0;
     bottom: 0;
 }
+
+@media (max-width: 1400px)
+{
+    .imgContent {
+        right: 75px;
+    }
+
+    .circle {
+        width: 400px;
+        height: 650px;
+        clip-path: circle(650px at 650px 650px);
+    }
+
+    .imgContent img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 1200px)
+{
+    .textContent h2 {
+        font-size: 3.4em;
+    }
+
+    .textContent p {
+        font-size: 18px;
+        width: 500px;
+    }
+
+    .circle {
+        width: 300px;
+        height: 650px;
+        clip-path: circle(400px at 400px 400px);
+    }
+}
+
+@media (max-width: 1000px)
+{
+    .circle {
+        width: 500px;
+        height: 500px;
+        clip-path: none;
+        border-radius: 50%;
+        bottom: 50%;
+        transform: translateY(50%);
+        right: -32%;
+    }
+
+    .logo img {
+        width: 80px;
+    }
+
+    .thumb img {
+        width: 53px;
+    }
+
+    .imgContent img {
+        max-width: 225px;
+    }
+}
