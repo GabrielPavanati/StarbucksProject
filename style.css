@@ -71,6 +71,10 @@ section {
     right: 150px;
 }
 
+.imgContent img {
+    max-width: 400px;
+}
+
 .social {
     display: flex;
     flex-direction: column;
