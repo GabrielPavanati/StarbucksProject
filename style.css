@@ -6,20 +6,105 @@
 }
 
 header {
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    top: 20px;
     width: 100%;
-    margin: 0 auto;
-    padding: 20px 50px 0 100px;
-}
-
-.menu > a {
-    text-decoration: none;
-    margin-right: 40px;
-    color: #333;
+    padding: 0 3% 0 7%;
 }
 
 .logo img {
     width: 90px;
+}
+
+.menu a{
+    text-decoration: none;
+    margin-right: 40px;
+    color: #333;
+    font-weight: 500;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding-left: 7%;
+}
+
+.starbucks {
+    color: #017143;
+}
+
+.textContent {
+    width: 600px;
+}
+
+.textContent h2 {
+    font-size: 4em;
+    font-weight:500;
+}
+
+.textContent h2 span {
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+.textContent p {
+
+}
+
+.textContent a {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 6px 20px;
+    background-color: #017143;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.imgContent {
+    position: absolute;
+    right: 150px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+}
+
+.social img {
+    margin-bottom: 10px;
+    transform: scale(0.6);
+}
+
+.thumb {
+    position: absolute;
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.thumb img {
+    width: 60px;
+    cursor: pointer;
+}
+
+.circle {
+    position: absolute;
+    width: 600px;
+    height: 720px;
+    background-color: #017143;
+    clip-path: circle(600px at 600px 600px);
+    right: 0;
+    bottom: 0;
 }
