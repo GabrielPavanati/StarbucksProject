@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 50px 0 100px;
+}
+
+.menu > a {
+    text-decoration: none;
+    margin-right: 40px;
+    color: #333;
+}
+
+.logo img {
+    width: 90px;
+}
