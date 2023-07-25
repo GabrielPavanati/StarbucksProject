@@ -247,4 +247,59 @@ section {
     .imgContent img {
         max-width: 215px;
     }
+
+    .circle {
+        width: 65px;
+        height: 170px;
+        clip-path: none;
+        border-radius: 8px;
+        bottom: 30%;
+        transform: translateY(-3%);
+        right: -1%;
+    }
+
+    .social {
+        bottom: 30%;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .textContent p {
+        font-size: 17px;
+    }
+
+    .textContent h2 {
+        font-size: 3em;
+    }
+
+    .textContent {
+        position: absolute;
+        left: 7%;
+        transform: translateX(0%);
+    }
+}
+
+@media (max-width: 530px)
+{
+    .textContent p {
+        width: 450px;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .textContent p {
+        line-height: 1.6em;
+    }
+
+    .textContent {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-48%);
+    }
+
+    header {
+        padding-left: 3%;
+    }
 }
