@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 header {
@@ -46,6 +47,7 @@ section {
     font-size: 4.5em;
     font-weight: 500;
     line-height: 1.2;
+    overflow-y: hidden;
 }
 
 .textContent h2 span {
@@ -168,13 +170,13 @@ section {
 @media (max-width: 1000px)
 {
     .circle {
-        width: 500px;
-        height: 500px;
+        width: 470px;
+        height: 470px;
         clip-path: none;
         border-radius: 50%;
         bottom: 50%;
         transform: translateY(50%);
-        right: -32%;
+        right: -30%;
     }
 
     .logo img {
@@ -187,5 +189,62 @@ section {
 
     .imgContent img {
         max-width: 225px;
+    }
+}
+
+@media (max-width: 900px)
+{
+    .circle {
+        width: 65px;
+        height: 170px;
+        clip-path: none;
+        border-radius: 8px;
+        bottom: 50%;
+        transform: translateY(45%);
+        right: -1%;
+    }
+
+    .social {
+        right: 5px;
+    }
+
+    .textContent {
+        position: absolute;
+        top: 18%;
+        left: 7%;
+    }
+
+    .imgContent {
+        top: 50%;
+        right: 30%;
+        transform: translateX(50%);
+    }
+
+    .imgContent img {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 700px)
+{
+    .menu a {
+        display: none;
+    }
+
+    .textContent {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .imgContent {
+        top: 52%;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .imgContent img {
+        max-width: 215px;
     }
 }
